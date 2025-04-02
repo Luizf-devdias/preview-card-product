@@ -1,0 +1,96 @@
+html {
+    font-size: 14px;
+}
+
+body {
+    background-color: hsl(30, 38%, 92%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    background-color: hsl(0, 0%, 100%);
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    max-width: 520px;
+    max-height: 100%;
+    border-radius: 10px;
+}
+
+.container .imagem-container img {
+    height: 100%;
+    width: 100%;
+    border-radius: 10px 0 0 10px;
+}
+
+.container .informacoes-principais {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    padding: 25px 20px 25px 25px;
+    gap: 15px;
+}
+
+.container .informacoes-principais .produto {
+    font-size: 10px;
+    font-weight: 500;
+    font-family: 'montserrat', sans-serif;
+    color: hsl(228, 12%, 48%);
+    letter-spacing: 2px;
+}
+
+.container .informacoes-principais .titulo-produto {
+    font-family: 'fraunces', sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 35px;
+}
+
+.container .informacoes-principais .texto-produto {
+    font-family: 'montserrat', sans-serif;
+    color: hsl(228, 12%, 48%);
+    font-weight: 500;
+    width: 225px;
+    font-size: 13px;
+    line-height: 20px;
+}
+
+.container .informacoes-principais .preco {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 25px;
+    font-family: 'fraunces', sans-serif;
+    font-weight: 700;
+    color: hsl(158, 36%, 37%);
+}
+
+.container .informacoes-principais .preco span {
+    font-size: 10px;
+    font-family: 'montserrat', sans-serif;
+    font-weight: 600;
+    text-decoration: line-through;
+    color: hsl(228, 12%, 48%);
+}
+
+.container .informacoes-principais .btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(158, 36%, 37%);
+    border: 0;
+    min-width: 205px;
+    height: 40px;
+    color: white;
+    font-size: 12px;
+    font-weight: 600;
+    border-radius: 5px;
+    gap: 10px;
+}
+
+.container .informacoes-principais .btn:hover {
+    background-color: hsl(158, 42%, 18%);
+    cursor: pointer;
+}

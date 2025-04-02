@@ -1,0 +1,31 @@
+@media (max-width: 520px) {
+    .container {
+        grid-template-columns: 1fr;
+        grid-template-rows: auto auto;
+        max-width: 340px;
+        border-radius: 10px;
+        
+    }
+
+    .container .imagem-container img {
+        border-radius: 10px 10px 0 0;
+    }
+
+    .container .informacoes-principais {
+        padding: 22px;
+    
+    }
+
+    .container .informacoes-principais .texto-produto {
+        width: 295px;
+        font-size: 14px;
+    }
+
+    .container .informacoes-principais .produto {
+        font-size: 14px;
+    }
+
+    .btn {
+        width: 100%;
+    }
+}
