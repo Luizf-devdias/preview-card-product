@@ -1,6 +1,7 @@
 # 📦 Cartão de Produto - Frontend Mentor
 
 Este é um desafio do **Frontend Mentor** que tem como objetivo testar habilidades em **HTML e CSS**, utilizando **Flexbox e Grid** para construir um layout responsivo e elegante. 🎯
+Link para acessar o projeto: https://luizf-devdias.github.io/preview-card-product/
 
 ---
 
